@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <body>
+        <div class="container">
+            <form>
+                <input type="text" name="text" class="textview" value="" disabled>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="button" class="button clear special" value="AC" onclick="clean();">
+                            <input type="button" class="button special" value="&#8676" onclick="backspace();">
+                            <input type="button" class="button special" value="/" onclick="insert(value);">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" class="button" value="7" onclick="insert(value);">
+                            <input type="button" class="button" value="8" onclick="insert(value);">
+                            <input type="button" class="button" value="9" onclick="insert(value);">
+                            <input type="button" class="button special" value="*" onclick="insert(value);">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" class="button" value="4" onclick="insert(value);">
+                            <input type="button" class="button" value="5" onclick="insert(value);">
+                            <input type="button" class="button" value="6" onclick="insert(value);">
+                            <input type="button" class="button special" value="+" onclick="insert(value);">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" class="button" value="1" onclick="insert(value);">
+                            <input type="button" class="button" value="2" onclick="insert(value);">
+                            <input type="button" class="button" value="3" onclick="insert(value);">
+                            <input type="button" class="button special" value="-" onclick="insert(value);">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" class="button" value="." onclick="insert(value);">
+                            <input type="button" class="button" value="0" onclick="insert(value);">
+                            <input type="button" class="button equals-button" value="=" onclick="result();">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</body>
+
+</html>
