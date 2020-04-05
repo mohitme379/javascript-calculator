@@ -53,6 +53,11 @@ body {
     color: white;
 }
 
+button:focus {
+    outline: none;
+    
+}
+
 .button:active {
     background-color: #ffa372;
 }
