@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    /* padding-top: 100px; */
+    padding-top: 50px;
     height: 100%;
     width: 100%;
     background-image: linear-gradient(to bottom right, #9FBDB3, #37B9E9);
